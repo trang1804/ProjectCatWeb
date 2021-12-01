@@ -1,0 +1,17 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.choose-language ul li {
+    list-style: none;
+    padding-left: 40px;
+}
+
+.info-contact i {
+    padding-right: 10px;
+}
+
+.info-contact .email {
+    padding-right: 40px;
+}

@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+	<link rel='stylesheet' href='https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css'>
+	<script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+	<title>Gon_Shop</title>
+	<link rel="stylesheet" href="Gon_Shop.css">
+</head>
+<body>
+	<header>
+		<div class="info-title" style="height:38px; line-height: 38px; background-color: #383838; color: #a1a1a1;">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="info-contact" style="float: left; display: flex;">
+							<div class="email">
+								<i class="far fa-envelope"></i>theme_sky@gmail.com
+							</div>
+							<div class="phone">
+								<i class="fas fa-phone-alt"></i>+189.234.5679 
+							</div>
+						</div>
+						<div class="choose-language" style="float: right;">
+							<ul style="display: flex;">
+								<li>English</li>
+								<li>USD</li>
+								<li>Wishlist(O)</li>
+								<li>Login/Register</li>
+							</ul>
+						</div>
+					</div> <!-- END INFO-TITLE -->
+				</div>
+			</div>
+		</div>	<!-- END INFO-TITLE -->
+		<div class="shop-categories" style="height: 115px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12" style="float: left;" >
+						<div class="title-shop" style="float:left;">
+							<img src="../Gon_Shop_CatWeb/Gon_Shop/image_title.jpg" alt="Gon Shop">
+						</div>
+						<div class="info-search" style="float: right; display: flex;">
+							<div class="search-box">
+								<span>All categories</span>
+								<i class="fas fa-caret-down"></i>
+							</div>
+							<div class="search">
+								<input type="text" placeholder="Search for products">
+								<i class="fas fa-search"></i>
+							</div>
+							<div class="shopping-cart">
+								<i class="fas fa-shopping-bag"></i>
+								<span>Cart:$0.00</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	<!-- END SHOP-CATEGORIES -->
+		<div class="navigation" style="width: 100%;height: 50px;display: flex;border-top: 1px solid #e7e7e7;border-bottom: 1px solid #e7e7e7;line-height: 50px; background-color: #fbfbfb;">
+			<div class="container">
+				<div class="col-md-12">
+				<div class="row">
+					<div class="nav-left" style="float: left;">
+						<i class="fas fa-bars"></i>
+						<span>SHOP BY CATEGORY</span>
+					</div>
+					<ul class="nav-right" style="float: left;">
+						<li><a href="#">Home</a></li>
+						<li>
+							<a href="#">Shop</a>
+							<i class="fa fa-angle-down"></i>
+						</li>
+						<li>
+							<a href="#">Blog</a>
+							<i class="fa fa-angle-down"></i>
+						</li>
+						<li>
+							<a href="#">Shortcode</a>
+							<i class="fa fa-angle-down"></i>
+						</li>
+						<li>
+							<a href="#">Page</a>
+							<i class="fa fa-angle-down"></i>
+						</li>
+						<li>
+							<a href="#">Theme features</a>
+							<i class="fa fa-angle-down"></i>
+						</li>
+						<li>
+							<a href="#">Contact us</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			</div>
+		</div> <!-- END NAVIGATION -->
+		<div class="intro-view">
+			<!-- <div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h4>Spring Summer 2015</h4>
+						<h2>New high collection</h2>
+						<p>Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Nam, eos nulla molestias illum</p>
+						<div class="button-content">
+							<a href="#">View More</a>
+							<a href="#">Buy Now</a>
+						</div>
+					</div>
+				</div>
+			</div> -->
+			<img src="../Gon_Shop_CatWeb/Gon_Shop/image_main.jpg" alt="" class="wow bounceInUp">
+		</div>	<!-- END INTRO-VIEW -->
+	</header>
+	<!-- END HEADER -->
+	<div class="img-intro" style="padding: 30px 0;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<img src="../Gon_Shop_CatWeb/Gon_Shop/image_intro.jpg" alt="" class="wow bounce">
+				</div>
+			</div>
+		</div>
+	</div>	<!-- END IMG-INTRO -->
+	<section class="products">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="col-md-3">
+						<div class="top-rated wow slideInLeft" data-wow-duration="2s">
+							<h4>Top rated</h4>
+							<div class="products-top">
+								<div class="product_1">
+									<img src="../Gon_Shop_CatWeb/Gon_Shop/pro_lf_1.jpg" alt="">
+									<div class="info-pro">
+										<h4>T-Shirt</h4>
+										<p>Cras ipsum massa</p>
+										<p class="price">$20.99</p>
+										<img src="../Gon_Shop_CatWeb/Gon_Shop/rate.jpg" alt="" class="rate">
+									</div>
+								</div>
+								<div class="product_1">
+									<img src="../Gon_Shop_CatWeb/Gon_Shop/pro_lf_2.jpg" alt="">
+									<div class="info-pro">
+										<h4>Accessories</h4>
+										<p>Cras ipsum massa</p>
+										<p class="price">$20.99</p>
+										<img src="../Gon_Shop_CatWeb/Gon_Shop/rate.jpg" alt="" class="rate">
+									</div>
+								</div>
+								<div class="product_1">
+									<img src="../Gon_Shop_CatWeb/Gon_Shop/pro_lf_3.jpg" alt="">
+									<div class="info-pro">
+										<h4>Sweaters</h4>
+										<p>Cras ipsum massa</p>
+										<p class="price">$20.99</p>
+										<img src="../Gon_Shop_CatWeb/Gon_Shop/rate.jpg" alt="" class="rate">
+									</div>
+								</div>
+								<div class="product_1">
+									<img src="../Gon_Shop_CatWeb/Gon_Shop/pro_lf_4.jpg" alt="">
+									<div class="info-pro">
+										<h4>Shoes</h4>
+										<p>Cras ipsum massa</p>
+										<p class="price">$20.99</p>
+										<img src="../Gon_Shop_CatWeb/Gon_Shop/rate.jpg" alt="" class="rate">
+									</div>
+								</div>	<!-- END PRODUCT_1 -->
+							</div>	<!-- END PRODUCTS-TOP -->
+						</div> <!-- END TOP-RATED -->
+						<img src="../Gon_Shop_CatWeb/Gon_Shop/img-sale.jpg" alt="" class="sale wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
+						<div class="testimonials wow slideInLeft" data-wow-duration="2s" data-wow-delay="2s">
+							<h4>Testimonials</h4>
+							<p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam quasi voluptatum, nemo nobis dignissimos reiciendis fugit perspiciatis est animi modi aperiam maxime eos ad. Neque tempora, expedita. Ex, minima, repudiandae."</p>
+							<img src="../Gon_Shop_CatWeb/Gon_Shop/profile.jpg" alt="" class="profile">
+							<h5 class="name">John hendry Doe</h5>
+							<span>Developer</span><br>
+							<i class="fa fa-angle-left" class="left"></i>
+							<i class="fa fa-angle-right" class="right"></i>
+						</div>
+						<div class="our-brands" data-wow-delay="3s">
+							<h4>Our Brands</h4>
+							<div class="brands">
+								<div class="brand">
+									<img src="../Gon_Shop_CatWeb/Gon_Shop/brand_1.jpg" alt="">
+									<img src="../Gon_Shop_CatWeb/Gon_Shop/brand_2.jpg" alt="">
+								</div>
+								<div class="brand">
+									<img src="../Gon_Shop_CatWeb/Gon_Shop/brand_3.jpg" alt="">
+									<img src="../Gon_Shop_CatWeb/Gon_Shop/brand_4.jpg" alt="">
+								</div>
+								<div class="brand">
+									<img src="../Gon_Shop_CatWeb/Gon_Shop/brand_5.jpg" alt="">
+									<img src="../Gon_Shop_CatWeb/Gon_Shop/brand_6.jpg" alt="">
+								</div>
+							</div>
+							<br>
+							<i class="fa fa-angle-left" class="left"></i>
+							<i class="fa fa-angle-right" class="right"></i>
+						</div>
+					</div>	<!-- END COL-MD-3 -->
+					<div class="col-md-9" style="width: 830px;">
+						<div class="list-product wow slideInRight" data-wow-offset="10">
+							<!-- <div class="container"> -->
+								<div class="row">
+									<div class="col-md-12">
+										<div class="col-md-4">
+											<i class="fa fa-angle-left" class="left"></i>
+											<a href="#">New Arrivals</a>
+										</div>
+										<div class="col-md-4">
+											<br>
+											<a href="#" class="feature">Featured Products</a>
+										</div>
+										<div class="col-md-4">
+											<br>
+											<a href="#" class="sell">Best Sellers</a>
+											<i class="fa fa-angle-right" class="right"></i>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="col-md-3">
+											<div class="pro_1">
+												<a href="../Gon_Shop_CatWeb/Gon_Shop/pro_1.jpg"><img src="../Gon_Shop_CatWeb/Gon_Shop/pro_1.jpg" alt="" class="fancybox"></a>
+												<div class="info-pro">
+													<h4>T-SHIRT</h4>
+													<p>Cras ipsum massa</p>
+													<p class="price">$20.99</p>
+													<img src="../Gon_Shop_CatWeb/Gon_Shop/rate.jpg" alt="" class="rate">
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="pro_1">
+												<a href="../Gon_Shop_CatWeb/Gon_Shop/pro_2.jpg"><img src="../Gon_Shop_CatWeb/Gon_Shop/pro_2.jpg" alt="" class="fancybox"></a>
+												<div class="info-pro">
+													<h4>Accessories</h4>
+													<p>Cras ipsum massa</p>
+													<p class="price">$20.99</p>
+													<img src="../Gon_Shop_CatWeb/Gon_Shop/rate.jpg" alt="" class="rate">
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="pro_1">
+												<a href="../Gon_Shop_CatWeb/Gon_Shop/pro_3.jpg"><img src="../Gon_Shop_CatWeb/Gon_Shop/pro_3.jpg" alt="" class="fancybox"></a>
+												<div class="info-pro">
+													<h4>Shorts</h4>
+													<p>Cras ipsum massa</p>
+													<p class="price">$20.99</p>
+													<img src="../Gon_Shop_CatWeb/Gon_Shop/rate.jpg" alt="" class="rate">
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="pro_1">
+												<a href="../Gon_Shop_CatWeb/Gon_Shop/pro_4.jpg"><img src="../Gon_Shop_CatWeb/Gon_Shop/pro_4.jpg" alt="" class="fancybox"></a>
+												<div class="info-pro">
+													<h4>Shorts</h4>
+													<p>Cras ipsum massa</p>
+													<p class="price">$20.99</p>
+													<img src="../Gon_Shop_CatWeb/Gon_Shop/rate.jpg" alt="" class="rate">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="col-md-3">
+											<div class="pro_1">
+												<a href="../Gon_Shop_CatWeb/Gon_Shop/pro_5.jpg"><img src="../Gon_Shop_CatWeb/Gon_Shop/pro_5.jpg" alt="" class="fancybox"></a>
+												<div class="info-pro">
+													<h4>T-shirt</h4>
+													<p>Cras ipsum massa</p>
+													<p class="price">$20.99</p>
+													<img src="../Gon_Shop_CatWeb/Gon_Shop/rate.jpg" alt="" class="rate">
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="pro_1">
+												<a href="../Gon_Shop_CatWeb/Gon_Shop/pro_6.jpg"><img src="../Gon_Shop_CatWeb/Gon_Shop/pro_6.jpg" alt="" class="fancybox"></a>
+												<div class="info-pro">
+													<h4>Bags</h4>
+													<p>Cras ipsum massa</p>
+													<p class="price">$20.99</p>
+													<img src="../Gon_Shop_CatWeb/Gon_Shop/rate.jpg" alt="" class="rate">
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="pro_1">
+												<a href="../Gon_Shop_CatWeb/Gon_Shop/pro_7.jpg"><img src="../Gon_Shop_CatWeb/Gon_Shop/pro_7.jpg" alt="" class="fancybox"></a>
+												<div class="info-pro">
+													<h4>Accessories</h4>
+													<p>Cras ipsum massa</p>
+													<p class="price">$20.99</p>
+													<img src="../Gon_Shop_CatWeb/Gon_Shop/rate.jpg" alt="" class="rate">
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="pro_1">
+												<a href="../Gon_Shop_CatWeb/Gon_Shop/pro_8.jpg"><img src="../Gon_Shop_CatWeb/Gon_Shop/pro_8.jpg" alt="" class="fancybox"></a>
+												<div class="info-pro">
+													<h4>Jackets</h4>
+													<p>Cras ipsum massa</p>
+													<p class="price">$20.99</p>
+													<img src="../Gon_Shop_CatWeb/Gon_Shop/rate.jpg" alt="" class="rate">
+												</div>
+											</div>
+										</div>
+									</div> <!-- END ROW -->
+								<!-- </div> --> <!-- END ROW -->
+						</div>	<!-- END ROW -->
+					</div>
+					<img src="../Gon_Shop_CatWeb/Gon_Shop/img-handbag.jpg" alt="" class="handbag  wow bounceInUp">
+					<div class="special_products wow bounceInUp">
+						<div class="row">
+							<div class="col-md-12">
+								<h4>SPECIAL PRODUCTS</h4>
+							</div>
+							<div class="col-md-12">
+								<div class="col-md-4">
+									<div class="pro_1">
+										<img src="../Gon_Shop_CatWeb/Gon_Shop/pro_9.jpg" alt="">
+										<div class="info-pro">
+											<h4>T-SHIRT</h4>
+											<p>Cras ipsum massa</p>
+											<p class="price">$20.99</p>
+											<img src="../Gon_Shop_CatWeb/Gon_Shop/rate.jpg" alt="" class="rate">
+										</div>
+									</div>
+								</div>
+								<div class="col-md-8">
+									<div class="row">
+										<div class="col-md-12">
+											<div class="col-md-6">
+												<div class="product_1">
+													<img src="../Gon_Shop_CatWeb/Gon_Shop/spe_1.jpg" alt="" class="anh">
+													<div class="info-pro">
+														<h4>Accessories</h4>
+														<p>Cras ipsum massa</p>
+														<p class="price">$20.99</p>
+														<img src="../Gon_Shop_CatWeb/Gon_Shop/rate.jpg" alt="" class="rate">
+													</div>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="product_1">
+													<img src="../Gon_Shop_CatWeb/Gon_Shop/spe_2.jpg" alt="" class="anh">
+													<div class="info-pro">
+														<h4>Sweater</h4>
+														<p>Cras ipsum massa</p>
+														<p class="price">$20.99</p>
+														<img src="../Gon_Shop_CatWeb/Gon_Shop/rate.jpg" alt="" class="rate">
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-12">
+											<div class="col-md-6">
+												<div class="product_1">
+													<img src="../Gon_Shop_CatWeb/Gon_Shop/spe_3.jpg" alt="" class="anh">
+													<div class="info-pro">
+														<h4>Accessories</h4>
+														<p>Cras ipsum massa</p>
+														<p class="price">$20.99</p>
+														<img src="../Gon_Shop_CatWeb/Gon_Shop/rate.jpg" alt="" class="rate">
+													</div>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="product_1">
+													<img src="../Gon_Shop_CatWeb/Gon_Shop/spe_4.jpg" alt="" class="anh">
+													<div class="info-pro">
+														<h4>T-Shirt</h4>
+														<p>Cras ipsum massa</p>
+														<p class="price">$20.99</p>
+														<img src="../Gon_Shop_CatWeb/Gon_Shop/rate.jpg" alt="" class="rate">
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-12">
+											<div class="col-md-6">
+												<div class="product_1">
+													<img src="../Gon_Shop_CatWeb/Gon_Shop/spe_5.jpg" alt="" class="anh">
+													<div class="info-pro">
+														<h4>Dresses</h4>
+														<p>Cras ipsum massa</p>
+														<p class="price">$20.99</p>
+														<img src="../Gon_Shop_CatWeb/Gon_Shop/rate.jpg" alt="" class="rate">
+													</div>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="product_1">
+													<img src="../Gon_Shop_CatWeb/Gon_Shop/spe_6.jpg" alt="" class="anh" 
+													>
+													<div class="info-pro">
+														<h4>Accessories</h4>
+														<p>Cras ipsum massa</p>
+														<p class="price">$20.99</p>
+														<img src="../Gon_Shop_CatWeb/Gon_Shop/rate.jpg" alt="" class="rate">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div> <!-- END DIV ROW -->
+					</div>	<!-- END SPECIAL PRODUCTS -->
+					<img src="../Gon_Shop_CatWeb/Gon_Shop/newletter.jpg" alt="" class="newletter  wow bounceInUp">
+				</div><!-- END COL-MD-9 -->
+			</div>
+			<div class="col-md-12" style="margin-top: 30px;">
+				<div class="col-md-5">
+					<img src="../Gon_Shop_CatWeb/Gon_Shop/pro-sale.jpg" alt="" class="pro-sale  wow bounceInUp">
+				</div>
+				<div class="col-md-2"></div>
+				<div class="col-md-5">
+					<img src="../Gon_Shop_CatWeb/Gon_Shop/pro-new.jpg" alt="" class="pro-new  wow bounceInUp"data-wow-delay="1s">
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="pro-lastest" style="margin-top: 40px;">
+					<div class="col-md-12">
+						<div class="col-md-2">
+							<i class="fa fa-angle-left left"></i>
+						</div>
+						<div class="col-md-8">
+							<h4 style="text-align: center; text-transform: uppercase; color: 545454; font-weight: bold;">Lastest News</h4>
+						</div>
+						<div class="col-md-2">
+							<i class="fa fa-angle-right right"></i>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="col-md-4">
+							<div class="new_1  wow bounceInUp" data-wow-delay="2s">
+								<img src="../Gon_Shop_CatWeb/Gon_Shop/last_1.jpg" alt="">
+								<div class="cont">
+									<h4>Vestibulum saplen turpis</h4>
+									<p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Natus sint libero ab eaque eos provident consequuntur non expedita, ducimus laboriosam fugiat rerum quam aperiam quisquam labore, accusantium animi exercitationem alias.</p>
+									<div class="read">
+										<a href="#">Read more</a>
+										<img src="../Gon_Shop_CatWeb/Gon_Shop/mess.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="new_1 block_2  wow bounceInUp" data-wow-delay="3s">
+								<img src="../Gon_Shop_CatWeb/Gon_Shop/last_2.jpg" alt="">
+								<div class="cont">
+									<h4>Vestibulum saplen turpis</h4>
+									<p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Natus sint libero ab eaque eos provident consequuntur non expedita, ducimus laboriosam fugiat rerum quam aperiam quisquam labore, accusantium animi exercitationem alias.</p>
+									<div class="read">
+										<a href="#">Read more</a>
+										<img src="../Gon_Shop_CatWeb/Gon_Shop/mess.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="new_1 block_3  wow bounceInUp"  data-wow-delay="4s">
+								<img src="../Gon_Shop_CatWeb/Gon_Shop/last_3.jpg" alt="">
+								<div class="cont">
+									<h4>Vestibulum saplen turpis</h4>
+									<p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Natus sint libero ab eaque eos provident consequuntur non expedita, ducimus laboriosam fugiat rerum quam aperiam quisquam labore, accusantium animi exercitationem alias.</p>
+									<div class="read">
+										<a href="#">Read more</a>
+										<img src="../Gon_Shop_CatWeb/Gon_Shop/mess.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>	<!-- END SECTION PRODUCTS -->
+	<footer>
+		<img src="../Gon_Shop_CatWeb/Gon_Shop/lookbook.jpg" alt="" width="100%" style="margin-top: 60px;">
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="col-md-3">
+							<div class="about">
+								<h4>About Us</h4>
+								<div>Office : <span>868 Fake Stress, New York</span></div>
+								<div>Phone : <span>(08) 8827 633354</span></div>
+								<div>Fax : <span>(08)08 4752 1499</span></div>
+								<div>Email : <span>info@theme-sky.com</span></div>
+								<ul class="contact">
+									<li><i class="fab fa-facebook-f"></i></li>
+									<li><i class="fab fa-twitter"></i></li>
+									<li><i class="fab fa-google-plus-g"></i></li>
+									<li><i class="fab fa-youtube"></i></li>
+									<li><i class="fab fa-instagram"></i></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="infomation">
+								<h4>Information</h4>
+								<ul>
+									<li>Frequently Asked Questions</li>
+									<li>Terms and Conditions</li>
+									<li>Privacy Policy</li>
+									<li>Terms and Condition</li>
+									<li>Customer Service</li>
+									<li>Delivery Information</li>
+									<li>Manufactures</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="recent-post">
+								<h4>Recent Posts</h4>
+								<div class="post_1">
+									<img src="../Gon_Shop_CatWeb/Gon_Shop/post.jpg" alt="">
+									<span>Lorem ipsum dolor sit amet, consectetur adipisicing, elit</span>
+								</div>
+								<div class="post_1">
+									<img src="../Gon_Shop_CatWeb/Gon_Shop/post.jpg" alt="">
+									<span>Lorem ipsum dolor sit amet, consectetur adipisicing, elit</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="Flickr">
+								<h4>Flickr</h4>
+								<img src="../Gon_Shop_CatWeb/Gon_Shop/flickr.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="row">
+							<div class="col-md-12">
+								<img src="../Gon_Shop_CatWeb/Gon_Shop/icon.jpg" alt="" class="img-main" style="text-align: center;">
+							</div>
+							<div class="col-md-12">
+								<span style="text-align: center;" class="ft2">@2015 Gonshop. All rights Reserved. Theme by theme-sky.com</span>
+							</div>
+							<div class="col-md-12">
+								<img src="../Gon_Shop_CatWeb/Gon_Shop/taitro.jpg" alt="" class="img-main ft3" style="text-align: center;">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer> <!-- END FOOTER -->
+	<div class="back-to-top"><i class="fas fa-chevron-up"></i></div>
+	<script src="Gon_Shop.js"></script>
+</body>
+</html>
